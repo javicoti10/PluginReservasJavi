@@ -1,0 +1,72 @@
+#reservasForm {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#reservasForm input, #reservasForm select, #reservasForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+#reservasForm input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#reservasForm input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.reservas-list {
+    list-style: none;
+    padding: 0;
+}
+.reserva-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reserva-item:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+.reserva-nombre, .reserva-hora, .reserva-personas, .reserva-email, .reserva-editar, .reserva-borrar {
+    margin-right: 10px;
+}
+.reserva-email {
+    color: #0073aa;
+    text-decoration: none;
+}
+.reserva-email:hover {
+    text-decoration: underline;
+}
+.reserva-editar, .reserva-borrar {
+    color: #a00;
+    text-decoration: none;
+}
+.reserva-editar:hover, .reserva-borrar:hover {
+    text-decoration: underline;
+}
+.reservas-filtro {
+    margin-top: 20px;
+}
+.reservas-filtro select {
+    margin-right: 10px;
+    padding: 5px;
+}
+.reservas-filtro input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.reservas-filtro input[type="submit"]:hover {
+    background-color: #005177;
+}
+
+/*Estilos principales para el formulario y otras interfaces.*/
